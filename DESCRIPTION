@@ -1,0 +1,20 @@
+Type: Package
+Package: veselibSingleCell
+Title: Convinience functions for single-cell analysis
+Version: 0.0.1
+Author: Veselin Grozdanov
+Maintainer: Veselin Grozdanov <NA@NA.NA>
+Description: Collection of accessory functions and classes for convinience
+    in single-cell analysis in different R single-cell ecosystems.
+    Collects functions and classes previously in 'veselibSeurat' and
+    'veselibSeuratOld'
+License: GPL (>= 3)
+Imports: 
+    dplyr,
+    ggplot2,
+    ggpp,
+    pals,
+    patchwork
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
