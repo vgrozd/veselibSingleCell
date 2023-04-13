@@ -11,8 +11,6 @@
 
 
 plot_cell_types <- function(object, reduction="umap", idents){
-  print("Hello!")
-  print("Hello again!!")
   .pal = rev(as.character(pals::glasbey(length(levels(factor(object[[idents]][,1]))))))
   names(.pal) = rev(as.character(levels(factor(object[[idents]][,1]))))
   print(
