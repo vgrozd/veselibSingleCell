@@ -4,7 +4,7 @@
 \alias{plot_cell_types}
 \title{Convenient cell composition plotting}
 \usage{
-plot_cell_types(object, reduction = "umap", idents)
+plot_cell_types(object, idents = NULL, reduction = "umap")
 }
 \arguments{
 \item{object}{A Seurat object; more input options TBA}
